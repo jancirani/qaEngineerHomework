@@ -6,7 +6,6 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features=".",format={"html:target/cucumber","json:target/cucumber.json"},
-//tags="@higherRate")
 tags="@all")
 //tags="@withMultipleTestData")
 //tags=", @basicRate,  @higherRate,  @additionalRate")
